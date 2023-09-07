@@ -28,7 +28,7 @@ bool isSorted(int arr[], int arrSize){
 }
 
 int main(){
-    int arrSize = 5, arr[arrSize] = {-1, 2, 3, 4, 4};
+    int arrSize = 4, arr[arrSize] = {2, -1, 2, 3};
     bool boo = isSorted(arr, arrSize);
     int sum = sumOfSquares(arr, arrSize);
     cout << sum << endl;

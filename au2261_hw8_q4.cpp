@@ -18,7 +18,7 @@ int findLowestCost(int arr[], int arrSize){
 
 int main(){
     
-    int arrSize = 6, arr[arrSize] = {0, 3, 80, 6, 57, 10};
+    int arrSize = 6, arr[arrSize] = {0, 3, 80, 100, 57, 10};
     cout << findLowestCost(arr, arrSize);
 
     return 0;

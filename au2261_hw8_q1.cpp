@@ -39,11 +39,11 @@ void printRuler(int n){
 
 int main(){
     
-    printTriangle(6);
+    printTriangle(8);
     cout << endl;
-    printOppositeTriangles(6);
+    printOppositeTriangles(5);
     cout << endl;
-    printRuler(4);
+    printRuler(3);
     
     return 0;
 }
